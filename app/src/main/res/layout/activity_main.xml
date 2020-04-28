@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:src="@drawable/backgroundfinal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/emailfinal"
+        android:layout_above="@id/address"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"/>
+
+    <ImageView
+        android:id="@+id/address"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/locationpinfinal"
+        android:layout_above="@id/phone"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"/>
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/phonefinal1"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/app_title"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="50sp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/app_description"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp" />
+
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/app_email"
+        android:layout_alignBottom="@id/email"
+        android:layout_toEndOf="@id/email"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/location1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/app_address"
+        android:layout_alignBottom="@id/address"
+        android:layout_toEndOf="@id/address"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_toEndOf="@id/phone"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="bottom"
+        android:text="@string/Telephone"
+        android:textColor="@android:color/holo_green_dark"
+        android:paddingLeft="15dp"
+        android:textSize="20sp" />
+</RelativeLayout>

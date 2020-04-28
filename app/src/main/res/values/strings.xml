@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DianaTest</string>
+    <string name="app_title">Fashion Design&amp;More!</string>
+    <string name="app_description">We provide fashion solutions and create fashion articles for you
+        and just you.Call us or take a drive to meet us. We promise it will be worth it.</string>
+    <string name="app_address">Romania, Timisoara, Iulius Mall</string>
+    <string name="app_email">FashionDesign&amp;More@fashion.com</string>
+    <string name="Telephone">+40/222.555.333</string>
+</resources>
